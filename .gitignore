@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large AI model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Dataset
+data/
+datasets/
+Herlev/
+SIPaKMeD/
+
+# TensorBoard
+runs/
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
