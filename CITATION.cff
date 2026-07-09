@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use PapsAI XNet in your research, please cite this software and the associated publication."
+title: "PapsAI XNet"
+type: software
+
+authors:
+  - family-names: Wasswa
+    given-names: William
+    affiliation: "Mbarara University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-0202-1230"
+
+abstract: "PapsAI XNet is an explainable hybrid deep learning framework that integrates attention-guided convolutional neural networks with an Adaptive Neuro-Fuzzy Inference System for automated cervical cytology classification."
+
+keywords:
+  - cervical cytology
+  - pap smear
+  - cervical cancer screening
+  - explainable artificial intelligence
+  - deep learning
+  - ANFIS
+  - medical imaging
+  - digital pathology
+
+license: Apache-2.0
+repository-code: "https://github.com/PapsAI/PapsAI-XNet"
+url: "https://papsai.org"
+
+version: "1.0.0"
+date-released: "2026-01-01"
+
+preferred-citation:
+  type: article
+  title: "Explainable Hybrid Deep Learning for Automated Cervical Cytology Classification"
+  authors:
+    - family-names: Wasswa
+      given-names: William
+      affiliation: "Mbarara University of Science and Technology"
+ - family-names: Ware
+      given-names: Andrew
+      affiliation: "University of Southwales"
+  journal: "Scientific Reports"
+  year: 2026
+  notes: "Manuscript under review"
