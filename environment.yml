@@ -1,0 +1,27 @@
+name: papsai-xnet
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10
+
+  # Core package manager
+  - pip
+
+  # PyTorch
+  - pytorch>=2.2
+  - torchvision>=0.17
+  - torchaudio>=2.2
+
+  # Jupyter
+  - jupyter
+  - notebook
+  - ipykernel
+
+  # Install remaining packages from requirements.txt
+  - pip:
+      - -r requirements.txt
